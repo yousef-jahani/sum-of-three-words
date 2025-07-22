@@ -1,0 +1,59 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  background:gray;
+  align-items: center;
+  height: 100vh;
+}
+
+span{
+  padding: 5px 4px;
+  color: orange;
+  margin-bottom: 15px;
+  border: none;
+  background-color: white;
+  border-radius: 3px;
+}
+#container{
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3),-5px -5px 5px rgba(0, 0, 0, 0.3) ;
+  margin-top: 70px;
+  border-radius: 8px;
+  display: flex;
+  background:white;
+  min-height: 450px;
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+#inputnumbers{
+  display: flex;
+  flex-direction: column;
+}
+#inputnumbers span{
+  color: black;
+  width: 15px;
+  background-color: rgba(128, 128, 128, 0.216);
+  margin-top: -50px;
+  margin-left: 170px;
+  border-radius: 50%;
+  text-align: center;
+  justify-content: center;
+  cursor: pointer;
+}
+#number1,#number2{
+  margin-bottom: 15px;
+  padding: 4px;
+}
+button{
+  margin-top: 20px;
+  cursor: pointer;
+}
+p{
+  color:black;
+  background-color: #99cd32c9;
+  width:150px ;
+  border-radius: 8px;
+}
